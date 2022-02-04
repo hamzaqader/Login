@@ -10,7 +10,8 @@ function Routes() {
                             <div>
                                 <PublicRoute  exact path="/" component={Login} />
                                 <PrivateRoute path="/dashboard" component={Dashboard} />
-                                
+                                <PublicRoute  exact path="/regsiter" component={Register} />
+                              
                             </div>
                         </Router>
     );

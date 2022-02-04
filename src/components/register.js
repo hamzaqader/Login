@@ -7,13 +7,8 @@ function Login() {
 
   return (
     <>
-
-
-
       <h2>login</h2>
-
-
-      <Form.Group controlId="formBasicEmail">
+     <Form.Group controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control
           type="email"
