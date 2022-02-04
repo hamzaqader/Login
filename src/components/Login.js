@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {useDispatch} from "react-redux";
-import { useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { login } from "../Redux/actions/user_action";
 import { Form, Button } from "react-bootstrap";
 function Login(){
@@ -43,8 +43,11 @@ function Login(){
           <Button variant="primary" type="submit">
             Submit
           </Button>
+          <Link to= "/register">
+          <button>Register</button>
+          </Link>
         </Form>
-
+      
         
     </>
   );
