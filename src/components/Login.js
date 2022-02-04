@@ -45,8 +45,14 @@ function Login(){
           </Button>
          
         </Form>
+
+      
+        <Link to ="/register">
+          <button>register</button>
+        </Link>
         
         
+
     </>
   );
 }
