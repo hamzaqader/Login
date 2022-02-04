@@ -7,10 +7,11 @@ import Dashboard from '../components/Dashboard'
 function Routes() {
     return (
         <Router >
-                            <div>
-                                <PublicRoute  exact path="/" component={Login} />
-                                <PrivateRoute path="/dashboard" component={Dashboard} />
-                              
+     <div>
+                <PublicRoute exact path="/" component={Login} />
+                <PrivateRoute path="/dashboard" component={Dashboard} />
+                <PublicRoute  path="/register" component={Register} />
+                                
                             </div>
                         </Router>
     );
