@@ -43,9 +43,7 @@ function Login(){
           <Button variant="primary" type="submit">
             Submit
           </Button>
-          <Link to= "/register">
-          <button>Register</button>
-          </Link>
+         
         </Form>
       
         
